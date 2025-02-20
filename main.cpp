@@ -21,6 +21,6 @@ int main () {
         cout << "Which die do you want to view? ";
         cin >> die_num;
         if (die_num) 
-            cout << "The value on die " << die_num << " id " << my_dice.die(die_num - 1) << endl;
+            cout << "The value on die " << die_num << " is " << my_dice.die(die_num - 1) << endl;
     } while (die_num);
 }
